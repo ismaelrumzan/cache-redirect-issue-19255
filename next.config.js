@@ -13,7 +13,7 @@ module.exports = {
         headers: [
           {
             key: "Cache-Control",
-            value: "s-maxage=1, stale-while-revalidate",
+            value: "s-maxage=864000, stale-while-revalidate",
           },
         ],
       },
